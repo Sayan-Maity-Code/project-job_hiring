@@ -86,18 +86,7 @@ project-job_hiring/
 
 ---
 
-## System Diagram
 
-```mermaid
-graph TD
-    A[Employee/HR Frontend (React)] -- REST API --> B[Backend (Express.js)]
-    B -- MongoDB ODM --> C[(MongoDB)]
-    A -- OCR API --> D[OCR.space (Resume Text Extraction)]
-    B -- Job Matching --> C
-    B -- Serve Job Data --> A
-```
-
----
 
 ## Getting Started
 
